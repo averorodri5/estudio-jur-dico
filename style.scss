@@ -1,0 +1,53 @@
+
+$primary-color: rgb(203, 161, 115);
+
+$secundary-color: rgb(168, 168, 233);
+ 
+
+
+body {
+background-color: $primary-color;
+color: rgb(66, 83, 192);
+
+}
+h1{
+
+    color: rgb(17, 48, 19);
+    font-size: 75px;
+    margin: 50px;
+}
+h2{
+
+    color: rgb(50, 20, 20);
+    font-size: 50px;
+    margin: 25px;
+}
+h3{
+color: rgb(61, 26, 26);
+font-size: 50px;
+margin-top: 25px;
+}
+.logo {
+
+   text-transform: capitalize; 
+}
+video{
+    size-adjust: 5px; 
+}
+main img{
+    font-size: 5%;
+
+}
+img{
+    font-size: 30%;
+}
+
+.temas{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(241, 230, 217);
+    border: 2px;
+    text-align: center;
+    line-height: 100px;
+}
+
