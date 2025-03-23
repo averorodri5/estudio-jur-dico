@@ -1,0 +1,79 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(203, 161, 115);
+  color: rgb(66, 83, 192);
+}
+
+h1 {
+  color: rgb(17, 48, 19);
+  font-size: 75px;
+  margin: 50px;
+  text-transform: uppercase;
+
+
+}
+
+h2 {
+  color: rgb(50, 20, 20);
+  font-size: 50px;
+  margin: 25px;
+
+}
+
+h3 {
+  color: rgb(61, 26, 26);
+  font-size: 50px;
+  margin-top: 25px;
+}
+
+.logo {
+  text-transform: capitalize;
+}
+
+video {
+  size-adjust: 5px;
+}
+
+main img {
+  font-size: 5%;
+}
+
+img {
+  font-size: 30%;
+}
+
+.temas {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(241, 230, 217);
+  border: 2px;
+  text-align: center;
+  line-height: 100px;
+}
+.caja {
+width: 70%;
+height: 30% ;
+background-color: bisque;
+border: 30px;
+text-align: center;
+line-height: 100px;
+text-transform: uppercase;
+
+}
+.service {
+
+text-transform: capitalize;
+}
+/*# sourceMappingURL=style.css.map */
+.service {
+flex-direction:row-reverse; 
+}
+header h2{
+  text-transform: uppercase;
+}

@@ -7,7 +7,6 @@ $secundary-color: rgb(168, 168, 233);
 
 body {
 background-color: $primary-color;
-color: rgb(66, 83, 192);
 
 }
 h1{
@@ -27,19 +26,16 @@ color: rgb(61, 26, 26);
 font-size: 50px;
 margin-top: 25px;
 }
-.logo {
 
-   text-transform: capitalize; 
-}
 video{
     size-adjust: 5px; 
 }
 main img{
-    font-size: 5%;
 
+    font-size: 5%;
 }
 img{
-    font-size: 30%;
+    font-size: 10%;
 }
 
 .temas{
@@ -51,3 +47,37 @@ img{
     line-height: 100px;
 }
 
+.caja {
+    width: 70%;
+    height: 30% ;
+    background-color: bisque;
+    border: 30px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    
+    }
+    .service {
+    
+    text-transform: capitalize;
+    }
+    /*# sourceMappingURL=style.css.map */
+   
+    header h2{
+      text-transform: uppercase;
+    }
+   .lawyer{
+    text-transform: capitalize;
+   }
+    .logo {
+        text-transform: capitalize;
+    }
+    .img-fluid {
+        width: 35px;
+        margin: 66cm
+    
+    }
+    .anonymous {
+        $primary-color
+    
+    }
